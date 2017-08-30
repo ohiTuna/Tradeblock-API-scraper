@@ -3,10 +3,10 @@
   
 simple tool for querying Tradeblock's Bitcoin tx history into .csv   
 sum block/tx size, sum txs, sum fees, and total blocks are available to be outputted at 1h, 2h, 6h, and 24h intervals with three column format:  
-timestamp(unix), value, excel converted date ("=(A1/24/60/60)+DATE(1970,1,1)"  
+timestamp(unix), value, excel converted date ("=(A1/24/60/60)+DATE(1970,1,1)") 
 
   
-Requires Go! prog language (golang): https://golang.org/dl/   
+Requires Go prog language (golang): https://golang.org/dl/   
   
 # Usage:  
 $ go run $GOPATH/SRC/github.com/test1/tbkcustom.go  
