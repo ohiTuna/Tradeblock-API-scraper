@@ -18,15 +18,15 @@ version 0.30
  
 version 0.21a
  - available via tbkcustNEW.go
- -ability to pull multiple record sets now working. Program will ask user for 'instances back' to run, each instance is 1000 values i.e. 4 instances back = 4000 records retrieved.
- -minor bugs remain: excel counter needs fixed, debugging status output msgs need pruned, record set output order needs fixed
- -prompt for user date now has a unix time epoch with current time
+ - ability to pull multiple record sets now working. Program will ask user for 'instances back' to run, each instance is 1000 values i.e. 4 instances back = 4000 records retrieved.
+ - minor bugs remain: excel counter needs fixed, debugging status output msgs need pruned, record set output order needs fixed
+ - rompt for user date now has a unix time epoch with current time
 
 version 0.20alpha
  - available via tbkcustNEW.go. 
- -adding ability to pull more than 1000 records at once (currently not working, DO NOT enter value >1 for 'instances back')
- -fixing the date column so that it correctly outputs Excel formatted datestamp
- -code cleanup so that not everything is in func main()
+ - adding ability to pull more than 1000 records at once (currently not working, DO NOT enter value >1 for 'instances back')
+ - fixing the date column so that it correctly outputs Excel formatted datestamp
+ - code cleanup so that not everything is in func main()
 
 
 ## Usage:  
@@ -49,6 +49,7 @@ txfee_new
 2
 
 will retrieve the sum transaction fees (in satoshis) for the 2000 six hour intervals before October 6 2017 04:30 (500 days of tx fee vals ending on Oct. 6 2017)
+
 
 # Tradeblock mempool scraper
 Gets the last week of mempool data, giving snapshots at 10 min intervals(code can be modified to do 1 min intervals if desired). Data is spit out into 8 columns and (typically) just under 1,000 rows. The columns aren't currently labeled, but they are: date/time (unix), tx bytes added to MP since last block found, tx bytes in MP since BEFORE last block, txs added to MP since last block, txs in MP since BEFORE last block, fees added to MP since last block found (in satoshis), fees added to MP since BEFORE last block, tx per min.     
