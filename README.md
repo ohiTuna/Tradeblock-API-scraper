@@ -12,16 +12,19 @@ Requires Go prog language (golang): https://golang.org/dl/
 ## version history notes/update notes       
 version 0.31 
   - forking mempool scraper off into its own new repo
+  
 version 0.30 
  - both tbkcustNEW.go and tbkcustom.go have been updated with latest stable version
  - excel counter fixed
  - debugging messages pruned
  - scanner and console instructions improved
+ 
 version 0.21a
  - available via tbkcustNEW.go
  - ability to pull multiple record sets now working. Program will ask user for 'instances back' to run, each instance is 1000 values i.e. 4 instances back = 4000 records retrieved.
  - minor bugs remain: excel counter needs fixed, debugging status output msgs need pruned, record set output order needs fixed
  - rompt for user date now has a unix time epoch with current time
+ 
 version 0.20alpha
  - available via tbkcustNEW.go. 
  - adding ability to pull more than 1000 records at once (currently not working, DO NOT enter value >1 for 'instances back')
