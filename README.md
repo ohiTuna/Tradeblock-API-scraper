@@ -7,7 +7,7 @@ sum block/tx size, sum txs, sum fees, and total blocks are available to be outpu
 timestamp(unix), value, excel converted date ("=(A1/24/60/60)+DATE(1970,1,1)") 
 
 Requires Go prog language (golang): https://golang.org/dl/   
-
+(simple windows executable may be available in future)
 
 
 ## Usage:  
@@ -21,7 +21,9 @@ requires Go (golang) distribution installed and is run through terminal on Linux
 ## version history notes/update notes       
 version 0.32
   - cleanup
-  - started work on win binary
+  - started work on win binary 
+
+
 version 0.31 
   - forking mempool scraper off into its own new repo
   
