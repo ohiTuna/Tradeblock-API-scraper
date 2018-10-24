@@ -9,7 +9,6 @@ timestamp(unix), value, excel converted date ("=(A1/24/60/60)+DATE(1970,1,1)")
 Requires Go prog language (golang): https://golang.org/dl/   
 (simple windows executable may be available in future)
 
-
 ## Usage:  
 $ go run $GOPATH/Tradeblock-API-scraper/tbkcustom.go  
 
